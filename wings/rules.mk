@@ -1,8 +1,7 @@
 MCU = atmega32u4
+BOOTLOADER = atmel-dfu
 
-VIA_ENABLE = yes
 LT0_ENABLE = yes
-
 BOOTMAGIC_ENABLE = lite
 MOUSEKEY_ENABLE = no
 EXTRAKEY_ENABLE = yes
