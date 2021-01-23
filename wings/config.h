@@ -2,11 +2,11 @@
 
 #include "config_common.h"
 
-#define VENDOR_ID       0x796d
-#define PRODUCT_ID      0x7769
+#define VENDOR_ID       0x594D // YM
+#define PRODUCT_ID      0x5769 // Wi
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    YMDK
-#define PRODUCT         WINGS
+#define PRODUCT         Wings
 
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 15
@@ -24,9 +24,9 @@
 #ifdef  RGB_DI_PIN
 #define RGBLIGHT_ANIMATIONS
 #define RGBLED_NUM 14
-#define RGBLIGHT_HUE_STEP 10
-#define RGBLIGHT_SAT_STEP 10
-#define RGBLIGHT_VAL_STEP 10
+#define RGBLIGHT_HUE_STEP 8
+#define RGBLIGHT_SAT_STEP 8
+#define RGBLIGHT_VAL_STEP 8
 #endif
 
 #define DEBOUNCE 5
